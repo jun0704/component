@@ -1,0 +1,123 @@
+#app{
+	font-size: .14rem;
+	position: relative;
+	.add_btn{
+		background-color: #fa8919;
+    	font-size: 0.18rem;
+		width: 80%;
+		margin: 30px auto;
+		color: #fff;
+	}
+	.confirm-mask{
+		z-index: 999;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color:rgba(0,0,0,.4);
+		justify-content: center;
+		.vue-confirm{
+		    width: 2.16rem;
+		    margin: 0 auto;
+		    font-size: 0.14rem;
+		    border-radius: 0.05rem;
+		    background-color: #fff;
+		    overflow: hidden;
+		    text-align:center;
+			top: 50%;
+		    left: 50%;
+		    margin-top: -;
+		    margin-top: -0.58rem;
+		    margin-left: -1.08rem;
+		    position: absolute;
+		    .confirm-icon{
+		    	color: #fa8919;
+		    }
+		    .confirm-title{
+		    	line-height: 0.18rem;
+			    margin: 0.1rem;
+		    }
+		    .confirm-content{
+		    	line-height: 0.18rem;
+		    	margin: 0.1rem;
+		    }
+		    .confirm-btns{
+		    	font-size: .14rem;
+		    	width: 2rem;
+		    	margin: 0 auto;
+		    	.btn{
+		    		float: left;
+			    	width: 0.9rem;
+			    	margin: 0.05rem;
+			    	background-color: #fa8919;
+			    	border-radius: 0.05rem;
+			    	height: 0.3rem;
+			    	line-height:0.3rem;
+
+		    	}
+		    }
+		}
+	}
+	.bottom{
+		position: fixed;
+		padding: 0.4rem;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		.callApp{
+			text-decoration: none;
+		}
+	}
+
+	.vue-toast{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		z-index: 999;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.toast-wrapper{
+			width: 1.5rem;
+			height: 1.5rem;
+			background-color: rgba(0,0,0,0.8);
+			border-radius: 0.05rem;
+			color: #fff;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			align-items: center;
+		    display: flex;
+		    flex-flow: column;
+			margin-top: -0.75rem;
+			i{
+				display: block;
+				height: 0.45rem;
+				width:0.45rem;
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				&.right{
+					background-image: url(../img/right.png)
+				}
+				&.error{
+					background-image: url(../img/error.png)
+				}
+				&.warn{
+					background-image: url(../img/warn.png)
+				}
+				&.loading{
+					background-image: url(../img/loading.png)
+				}
+			}
+			p{
+				margin-top: 0.2rem;
+			}
+
+		}
+	}
+	
+}
+
+
+

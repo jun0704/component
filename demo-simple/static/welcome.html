@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>welcome</title>
+	<link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/base.less"> -->
+	<link rel="stylesheet" type="text/css" href="css/welcome.less">
+	<script type="text/javascript" src="js/components/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="js/components/idangerous.swiper2.7.6.js"></script>
+	<script type="text/javascript" src="js/welcome.js"></script>
+	<style type="text/css">
+		.swiper-container{
+			width: 800px;
+			height: 200px;
+			background-color: #fa8919;
+			overflow: hidden;
+		}
+		.swiper-slide{
+			/*float: left;*/
+		}
+	</style>
+</head>
+<body>
+	<header></header>
+	<div>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">1</div>
+				<div class="swiper-slide">2</div>
+				<div class="swiper-slide">3</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var mySwiper = new Swiper(".swiper-container",{
+			autoplay: 5000
+			// direction: "horizontal", // 方向  默认horizontal   vertical
+			// pagination: ".swiper-pagination",
+			// nextButton: ".swiper-button-next",
+			// prevButton: ".swiper-button-prev",
+			// scrollbar:'.swiper-scrollbar',
+			// initialSlide: 0,  //滑块从第几个开始  从0开始计数
+			// grabCursor: true,//鼠标放在滑块上，鼠标变为手掌形状
+			// watchSlidesProgress: true,
+			// watchSlidesVisibility : true,
+			// autoplayDisableOnInteraction : false
+		})
+	</script>
+</body>
+</html>

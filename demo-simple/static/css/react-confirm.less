@@ -1,0 +1,66 @@
+#app{
+	.add_btn{
+		background-color: #fa8919;
+    	font-size: 0.18rem;
+		width: 80%;
+		margin: 30px auto;
+		color: #fff;
+	}
+	.confirm-wrapper{
+		display: none;
+		&.on{
+			display: block
+		}
+		.confirm-mask{
+			z-index: 999;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color:rgba(0,0,0,.4);
+			justify-content: center;
+			.react-confirm{
+			    width: 2.16rem;
+			    margin: 0 auto;
+			    font-size: 0.14rem;
+			    border-radius: 0.05rem;
+			    background-color: #fff;
+			    overflow: hidden;
+			    text-align:center;
+				top: 50%;
+			    left: 50%;
+			    margin-top: -;
+			    margin-top: -0.58rem;
+			    margin-left: -1.08rem;
+			    position: absolute;
+			    .confirm-title{
+			    	line-height: 0.18rem;
+				    margin: 0.1rem;
+			    }
+			    .confirm-content{
+			    	line-height: 0.18rem;
+			    	margin: 0.1rem;
+			    }
+			    .confirm-btns{
+			    	font-size: .14rem;
+			    	width: 2rem;
+			    	margin: 0 auto;
+			    	.btn{
+			    		float: left;
+				    	width: 0.9rem;
+				    	margin: 0.05rem;
+				    	background-color: #fa8919;
+				    	border-radius: 0.05rem;
+				    	height: 0.3rem;
+				    	line-height:0.3rem;
+
+			    	}
+			    }
+			}
+		}
+	}
+}
+
+
+
